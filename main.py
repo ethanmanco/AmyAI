@@ -183,11 +183,19 @@ class GenericAssistant(IAssistant):
         ints = self._predict_class("goodbye")
         print(self._get_response(ints, self.intents))
 
+    def request_answer(self, message):
+        ints = self._predict_class(message)
+        if ints[0]['intent'] == "yes":
+            return self._get_response(ints, self.intents)
+        elif ints[0]['intent'] == "no":
+            return self._get_response(ints, self.intents)
+
     def request_response(self, message):
         ints = self._predict_class(message)
 
-        if ints[0]['intent'] == "goodbye":
-            self.intent_methods[ints[0]['intent']]()
+        if ints[0]['intent'] == "greeting" or ints[0]['intent'] == "thanks":
+            print(self._get_response(ints, self.intents))   # Print random response
+        elif ints[0]['intent'] == "yes" or ints[0]['intent'] == "no":
+            print("I don't understand!")                    # No context for yes/no
         else:
-            print(self._get_response(ints, self.intents))
-            self.intent_methods[ints[0]['intent']]()
+            self.intent_methods[ints[0]['intent']]()        # Call function for intent

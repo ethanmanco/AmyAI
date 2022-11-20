@@ -1,15 +1,31 @@
 {"intents": [
+    {"tag": "yes",
+      "patterns": ["Yes", "Yea", "Yeah", "All right", "Alright", "Very well", "Sure", "Certainly", "Absolutely", "Indeed", "Affirmative", "Aye"],
+      "responses": ["yes"]
+    },
+    {"tag": "no",
+      "patterns": ["No", "Nah", "Nope", "Never", "Not at all", "Nah", "Naw"],
+      "responses": ["no"]
+    },
     {"tag": "greeting",
       "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings", "How's it going?"],
-      "responses": ["Hey, how can I help you?", "Hello, how are you feeling?", "Hi there, how can I help?"]
+      "responses": ["Hey, how can I help you?", "Hello, what do you need help with?", "Hi there, how can I help?", "Hey, what needs troubleshooting?"]
     },
     {"tag": "goodbye",
-      "patterns": ["Goodbye", "See you later", "Cya", "I'm Leaving", "Have a Good day", "bye", "farewell", "see ya", "I better be off", "I'm gone"],
+      "patterns": ["Goodbye", "See you later", "Cya", "I'm Leaving", "Have a Good day", "bye", "farewell", "see ya", "I better be off", "I'm gone", "Peace"],
       "responses": ["Talk to you later", "Goodbye!", "Stay healthy!", "Be safe!"]
     },
     {"tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "I appreciate it", "Bless you", "You're the best!"],
+      "patterns": ["Thanks", "Thank you", "I appreciate it", "Bless you", "You're the best!", "Nice job"],
       "responses": ["You're very welcome!", "I try my best!", "No problem!", "You're welcome!"]
+    },
+    {"tag": "shortcut",
+      "patterns": ["How do I make a shortcut?", "How can you make a shortcut?", "How do I put an application on the home page?", "How can you put an app on the home page?", "Can you show me how to make a shortcut?"],
+      "responses": []
+    },
+    {"tag": "brightness",
+      "patterns": ["How can I change my brightness?", "Why is my screen dim?", "Why is my computer dim?", "Why is my phone dim?", "How do I increase brightness?", "How do I decrease brightness?", "Phone too bright", "Computer too bright", "Phone too dark", "Compueter too dark"],
+      "responses": []
     }
   ]
 }
