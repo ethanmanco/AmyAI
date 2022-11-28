@@ -34,6 +34,26 @@
     {"tag": "brightness",
       "patterns": ["How can I change my brightness?", "Why is my screen dim?", "Why is my computer dim?", "Why is my phone dim?", "How do I increase brightness?", "How do I decrease brightness?", "Phone too bright", "Computer too bright", "Phone too dark", "Compueter too dark"],
       "responses": []
+    },
+    {"tag": "bookmarks",
+      "patterns": ["How can I save a webpage?", "How do I bookmark a website", "bookmark website"],
+      "responses": []
+    },
+    {"tag": "fontsize",
+      "patterns": ["How do I make text bigger", "larger font", "increase font size","I cant see the text","text is too small", "large text"],
+      "responses": []
+    },
+    {"tag": "emailspam",
+      "patterns": ["block email", "spam email","spam", "junk email", "How can I remove spam", "how to stop email spam"],
+      "responses": []
+    },
+    {"tag": "screenorientation",
+      "patterns": ["How can I rotate my screen", "turn off screen rotation", "screen not rotating", "stop screen rotating", "turn on screen rotation"],
+      "responses": []
+    },
+    {"tag": "resetpassword",
+      "patterns": ["How do I reset my password", "reset password", "Change password", "How can I change my password"],
+      "responses": []
     }
   ]
 }
