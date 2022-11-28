@@ -19,6 +19,14 @@
       "patterns": ["Thanks", "Thank you", "I appreciate it", "Bless you", "You're the best!", "Nice job"],
       "responses": ["You're very welcome!", "I try my best!", "No problem!", "You're welcome!"]
     },
+    {"tag": "iPhone",
+      "patterns": ["I'm using an iPhone", "I'm using an apple phone", "iPhone", "apple", "I have an iPhone"],
+      "responses": ["iPhone"]
+    },
+    {"tag": "Android",
+      "patterns": ["I'm using an Android", "I'm using an Android phone", "I have an Android", "I have a pixel", "I have a google phone", "I have a samsung", "I have an LG", "I have a huawei", "I have a Nokia", "I have a Sony", "I have an HTC", "I have a Motorola", "Android", "Pixel", "Google phone", "Google pixel", "Samsung", "LG", "Huawei", "Nokia", "Sony", "HTC", "Motorola"],
+      "responses": ["Android"]
+    },
     {"tag": "shortcut",
       "patterns": ["How do I make a shortcut?", "How can you make a shortcut?", "How do I put an application on the home page?", "How can you put an app on the home page?", "Can you show me how to make a shortcut?"],
       "responses": []

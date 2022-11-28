@@ -179,6 +179,10 @@ class GenericAssistant(IAssistant):
     def request_method(self, message):
         pass
 
+    def request_greeting(self):
+        ints = self._predict_class("greeting")
+        print(self._get_response(ints, self.intents))
+
     def request_goodbye(self):
         ints = self._predict_class("goodbye")
         print(self._get_response(ints, self.intents))
@@ -188,6 +192,10 @@ class GenericAssistant(IAssistant):
         if ints[0]['intent'] == "yes":
             return self._get_response(ints, self.intents)
         elif ints[0]['intent'] == "no":
+            return self._get_response(ints, self.intents)
+        elif ints[0]['intent'] == "iPhone":
+            return self._get_response(ints, self.intents)
+        elif ints[0]['intent'] == "Android":
             return self._get_response(ints, self.intents)
 
     def request_response(self, message):
