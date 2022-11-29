@@ -12,7 +12,7 @@
       "responses": ["Hey, how can I help you?", "Hello, what do you need help with?", "Hi there, how can I help?", "Hey, what needs troubleshooting?"]
     },
     {"tag": "goodbye",
-      "patterns": ["Goodbye", "See you later", "Cya", "I'm Leaving", "Have a Good day", "bye", "farewell", "see ya", "I better be off", "I'm gone", "Peace"],
+      "patterns": ["Goodbye", "See you later", "Cya", "I'm Leaving", "Have a Good day", "bye", "farewell", "see ya", "I better be off", "I'm gone", "Peace", "I gotta go"],
       "responses": ["Talk to you later", "Goodbye!", "Stay healthy!", "Be safe!"]
     },
     {"tag": "thanks",
@@ -32,7 +32,19 @@
       "responses": []
     },
     {"tag": "brightness",
-      "patterns": ["How can I change my brightness?", "Why is my screen dim?", "Why is my computer dim?", "Why is my phone dim?", "How do I increase brightness?", "How do I decrease brightness?", "Phone too bright", "Computer too bright", "Phone too dark", "Compueter too dark"],
+      "patterns": ["How can I change my brightness?", "Why is my screen dim?", "Why is my computer dim?", "Why is my phone dim?", "How do I increase brightness?", "How do I decrease brightness?", "Phone too bright", "Computer too bright", "Phone too dark", "Computer too dark"],
+      "responses": []
+    },
+    {"tag": "printing",
+      "patterns": ["How can I print?", "How do I print?", "Where can I print?", "Why can't I print?", "Show me how to print", "How do I print an image?"],
+      "responses": []
+    },
+    {"tag": "wifi",
+      "patterns": ["How do I connect to wifi?", "How can I change my wifi?", "Where do I change my wifi?", "How do I connect to a network?", "Where do I change my network?"],
+      "responses": []
+    },
+    {"tag": "app_search",
+      "patterns": ["How do I find an app?", "How can I find an application?", "Where is my email application?", "Where is application", "Search for an app", "Look for an application", "Can't find an application", "Can't find my phone app", "Can't find my settings"],
       "responses": []
     }
   ]
