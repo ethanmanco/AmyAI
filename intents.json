@@ -12,8 +12,8 @@
       "responses": ["Hey, how can I help you?", "Hello, what do you need help with?", "Hi there, how can I help?", "Hey, what needs troubleshooting?"]
     },
     {"tag": "goodbye",
-      "patterns": ["Goodbye", "See you later", "Cya", "I'm Leaving", "Have a Good day", "bye", "farewell", "see ya", "I better be off", "I'm gone", "Peace", "I gotta go"],
-      "responses": ["Talk to you later", "Goodbye!", "Stay healthy!", "Be safe!"]
+      "patterns": ["Goodbye", "See you later", "Cya", "I'm Leaving", "Have a Good day", "bye", "farewell", "see ya", "I better be off", "I'm gone", "Peace", "I gotta go", "I have to go", "I have to leave"],
+      "responses": ["Talk to you later", "Goodbye!", "Farewell!", "Be safe!", "So long!", "Cheerio!"]
     },
     {"tag": "thanks",
       "patterns": ["Thanks", "Thank you", "I appreciate it", "Bless you", "You're the best!", "Nice job"],
@@ -45,6 +45,26 @@
     },
     {"tag": "app_search",
       "patterns": ["How do I find an app?", "How can I find an application?", "Where is my email application?", "Where is application", "Search for an app", "Look for an application", "Can't find an application", "Can't find my phone app", "Can't find my settings"],
+      "responses": []
+    },
+    {"tag": "bookmarks",
+      "patterns": ["How can I save a webpage?", "How do I bookmark a website", "bookmark website"],
+      "responses": []
+    },
+    {"tag": "fontsize",
+      "patterns": ["How do I make text bigger", "larger font", "increase font size","I cant see the text","text is too small", "large text"],
+      "responses": []
+    },
+    {"tag": "emailspam",
+      "patterns": ["block email", "spam email","spam", "junk email", "How can I remove spam", "how to stop email spam"],
+      "responses": []
+    },
+    {"tag": "screenorientation",
+      "patterns": ["How can I rotate my screen", "turn off screen rotation", "screen not rotating", "stop screen rotating", "turn on screen rotation"],
+      "responses": []
+    },
+    {"tag": "resetpassword",
+      "patterns": ["How do I reset my password", "reset password", "Change password", "How can I change my password"],
       "responses": []
     }
   ]

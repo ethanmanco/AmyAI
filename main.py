@@ -203,7 +203,8 @@ class GenericAssistant(IAssistant):
 
         if ints[0]['intent'] == "greeting" or ints[0]['intent'] == "thanks":
             print(self._get_response(ints, self.intents))   # Print random response
-        elif ints[0]['intent'] == "yes" or ints[0]['intent'] == "no":
-            print("I don't understand!")                    # No context for yes/no
+        elif ints[0]['intent'] == "yes" or ints[0]['intent'] == "no" \
+        or ints[0]['intent'] == "iPhone" or ints[0]['intent'] == "Android":
+            print("I don't understand!")                    # No context for these intents
         else:
             self.intent_methods[ints[0]['intent']]()        # Call function for intent
